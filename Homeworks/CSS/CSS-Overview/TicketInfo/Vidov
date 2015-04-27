@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #595959;
+                font-size: 12px;
+            }
+            ul{
+                list-style: none;
+            }
+            li{
+                color: white;
+                font-style: italic;
+            }
+            li > ul{
+                position: relative;
+                top: -15px;
+                left: 120px;
+            }
+            li ul li{
+                font-style: normal;
+            }
+            body > ul > li:first-of-type{
+                font-size: 1.5em;
+                color: #999;
+                font-style: normal !important;
+                margin-bottom: 15px;
+            }
+            span:empty{
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background-color: #01a252;
+                border-radius: 50%;
+            }
+            ul:first-of-type ul li:nth-child(2){
+                color: red;
+            }
+            li ul li:first-child{
+                color: #FFF3B4;
+            }
+            li:nth-child(4) ul li, li:nth-child(5) ul li{
+                color: #ACBBBB;
+            }
+            li:nth-child(5) ul li:nth-child(2){
+                color: #C2B470;
+            }
+            li:nth-child(6) ul li{
+                color: #DE6B1D;
+            }
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>TickedID: 409788</li>
+            <li>Name:
+                <ul>
+                    <li><span></span>Parker Seider</li>
+                    <li>No active support</li>
+                </ul>
+            </li>
+            <li>Email:
+                <ul>
+                    <li>seider@aptmail.com</li>
+                </ul>
+            </li>
+            <li>Respponse Time:
+                <ul>
+                    <li>72hours, 60hours left</li>
+                </ul>
+            </li>
+            <li>Last Action:
+                <ul>
+                    <li>Never been locked.</li>
+                    <li>Link to public post</li>
+                </ul>
+            </li>
+            <li>Status:
+                <ul>
+                    <li>Not answered</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
